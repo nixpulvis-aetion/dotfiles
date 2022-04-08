@@ -2,5 +2,10 @@
 !.Brewfile
 !.TODO.md
 !.gitconfig
+!.gitignore
+!.vim/after/syntax/rust.vim
+!.vim/after/syntax/syncolor.vim
+!.vim/autoload/lightline/colorscheme/nixpulvis.vim
+!.vim/colors/nixpulvis.vim
 !.vimrc
 !README.md
