@@ -1,51 +1,48 @@
-[hub]
-	protocol = ssh
+[user]
+	name = Nathan Lilienthal
+	email = nathan.lilienthal@aetion.com
 
 [alias]
-  up = !git remote update -p; git merge --ff-only @{u}
-  a = add
-  b = branch
-  c = clean
-  d = diff
-  f = fetch
-  g = clone
-  h = show
-  i = commit
-  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  m = merge
-  n = init
-  o = remote
-  p = push
-  r = rebase
-  s = status -s
-  t = tag
-  u = reset
-  v = pull
-  x = checkout
-  z = stash
+	a = add
+	b = branch
+	c = clean
+	d = diff
+	f = fetch
+	g = clone
+	h = show
+	i = commit
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	m = merge
+	n = init
+	o = remote
+	p = push
+	r = rebase
+	s = status -s
+	t = tag
+	u = reset
+	v = pull
+	x = checkout
+	z = stash
 
-  cp = cherry-pick
-  dt = difftool
-  mt = mergetool
+	up = !git remote update -p; git merge --ff-only @{u}
+ 	cp = cherry-pick
+ 	dt = difftool
+ 	mt = mergetool
 
-[color]
-  diff = auto
-  status = auto
-  branch = auto
-  ui = true
-
-[core]
-  excludesfile = ~/.gitignore
-
-[apply]
-  whitespace = nowarn
-
-[user]
-  email = nathan@nixpulvis.com
-  name = Nathan Lilienthal
+[init]
+	defaultBranch = master
 
 [branch]
-  autosetuprebase = always
+	autosetuprebase = always
 
 [push]
-  default = matching
+	default = matching
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+
+[core]
+	excludesfile = ~/.gitignore
