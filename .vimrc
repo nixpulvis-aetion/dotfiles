@@ -100,9 +100,10 @@ augroup ott
   autocmd FileType ott setlocal commentstring=%\ %s
 augroup END
 
+set backspace=indent,eol,start
 
 " Clipboard support.
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " Folding.
 set foldlevel=99
